@@ -13,9 +13,9 @@
 </head>
 
 <body>
-
+  
     <div class="main-cont">
-        <div class="cont">
+        <div class="container">
             <i class="fa-solid fa-bars fonta fa-2xs" style="color: #6a6a6a;"></i>
         </div>
 
@@ -29,7 +29,7 @@
              <div class="fin"><i class="fa-regular fa-circle fa-2xs" style="color: #000000;"></i> </div>
              <div class="fin"><i class="fa-solid fa-arrow-right fa-2xs" style="color: #000000;"></i> </div>
              <div class="fin"><i class="fa-solid fa-minus fa-2xs" style="color: #000000;"></i> </div>
-             <div class="fin"><i class="fa-solid fa-pencil fa-2xs" style="color: #000000;"></i> </div>
+             <div class="fin" id="pencil"><i class="fa-solid fa-pencil fa-2xs"  style="color: #000000;"></i> </div>
              <div class="fin"><i class="fa-solid fa-font fa-2xs" style="color: #000000;"></i> </div>
              <div class="fin"><i class="fa-regular fa-image fa-2xs" style="color: #000000;"></i> </div>
              <div class="fin"><i class="fa-solid fa-eraser fa-2xs" style="color: #000000;"></i> </div>
@@ -48,7 +48,7 @@
 
     <div class="tect"> To move canvas,hold the mouse wheel or spacebar while dragging or use the handtool</div>
 
-    <div class="logo1">
+    <!-- <div class="logo1">
         <div class="logo"><img width=100 height=100
                 src="https://pbs.twimg.com/profile_images/1701265499357614080/4lGkkWCm_400x400.jpg"> </img></div>
         <div class="tect1">EXCALIDRAW</div>
@@ -78,7 +78,9 @@
             </div>
         </div>
     </div>
+ --><canvas id="mycanvas">
 
+ </canvas>
 
     <div class="last-cont">
         <div class="cont3">
@@ -90,8 +92,6 @@
 
         </div>
         
-
-   
 
         <div class="last5">
             <div class="folder"> <i class="fa-solid fa-shield" 
@@ -106,6 +106,8 @@
 
 
     <script src="javascript.js"></script>
+    <script src="freehand.js"></script>
+    
 </body>
 
 </html>
